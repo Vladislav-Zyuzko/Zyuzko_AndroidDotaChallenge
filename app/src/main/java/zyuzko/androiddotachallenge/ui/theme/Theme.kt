@@ -60,6 +60,20 @@ object AppTheme {
                         LineHeightStyle.Trim.None
                     )
                 )
+        val Bold_16
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 16.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    ),
+                    letterSpacing = 0.6.sp
+                )
         val Regular_12_20
             @Composable
             get() =
@@ -69,6 +83,20 @@ object AppTheme {
                     fontSize = 12.sp,
                     lineHeight = 19.sp,
                     platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    )
+                )
+        val Regular_12_0_5
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Medium,
+                    fontSize = 12.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    letterSpacing = 0.5.sp,
                     lineHeightStyle = LineHeightStyle(
                         LineHeightStyle.Alignment.Proportional,
                         LineHeightStyle.Trim.None

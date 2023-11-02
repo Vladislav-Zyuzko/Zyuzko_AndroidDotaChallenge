@@ -2,4 +2,7 @@
     <string name="app_name">AndroidDotaChallenge</string>
     <string name="game_description">Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the "Ancient", whilst defending their own.</string>
     <string name="install">Install</string>
+    <string name="ratings_header">Review &amp; Ratings</string>
+    <string name="game_rating">4.9</string>
+    <string name="game_reviews">70M Reviews</string>
 </resources>
