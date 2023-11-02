@@ -22,6 +22,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.zIndex
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
 
 @Composable
@@ -31,6 +32,7 @@ fun DotaScreenHeader() {
         modifier = Modifier
             .fillMaxWidth()
             .height(296.dp)
+            .zIndex(1f)
     )
 }
 
@@ -59,7 +61,7 @@ private fun DotaLogo(shape: RoundedCornerShape) {
             .clip(shape)
             .background(AppTheme.BgColors.primaryBlack)
             .border(3.dp, AppTheme.BgColors.blueGrey, shape)
-            .padding(17.dp),
+            .padding(17.dp)
     ) {
         Image(
             modifier = Modifier
