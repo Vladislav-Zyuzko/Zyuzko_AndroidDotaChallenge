@@ -1,5 +1,6 @@
 package zyuzko.androiddotachallenge
 
+import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -20,28 +21,30 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.zIndex
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
 
 @Composable
 fun MainContent() {
     Column(
-        modifier = Modifier.padding(start = 24.dp, end = 24.dp),
+        modifier = Modifier
+            .clip(shape = RoundedCornerShape(25.dp, 25.dp, 0.dp, 0.dp))
+            .background(AppTheme.BgColors.primaryBlue)
+            .zIndex(0.5f)
+            .padding(start = 24.dp, end = 24.dp),
 
     ) {
         Text(
             text = stringResource(id = R.string.game_description),
             style = AppTheme.TextStyle.Regular_12_20,
             color = AppTheme.TextColors.dimLightGrey,
-            modifier = Modifier.padding(top = 113.dp)
+            modifier = Modifier.padding(top = 135.dp)
         )
         VideoPreviewRow(
             previewResList = listOf(
                 R.drawable.video_preview1,
                 R.drawable.video_preview2,
             )
-        )
-        PrimaryButton(
-
         )
     }
 
@@ -69,26 +72,5 @@ fun VideoPreviewRow(
 
             )
         }
-    }
-}
-
-@Composable
-fun PrimaryButton() {
-    Button(
-        onClick = { },
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(top = 47.dp)
-            .height(64.dp),
-        shape = RoundedCornerShape(12.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = AppTheme.ButtonColors.primaryYellow,
-            contentColor = AppTheme.TextColors.primaryBlack
-        )
-    ) {
-        Text(
-            text = stringResource(id = R.string.install) ,
-            style = AppTheme.TextStyle.Bold_20,
-        )
     }
 }
