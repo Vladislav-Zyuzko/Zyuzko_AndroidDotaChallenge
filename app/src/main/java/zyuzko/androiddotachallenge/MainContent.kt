@@ -34,11 +34,12 @@ fun MainContent() {
             .padding(start = 24.dp, end = 24.dp),
 
     ) {
+        ScrollableChipsRow()
         Text(
             text = stringResource(id = R.string.game_description),
             style = AppTheme.TextStyle.Regular_12_19,
             color = AppTheme.TextColors.dimLightGrey,
-            modifier = Modifier.padding(top = 135.dp)
+            modifier = Modifier.padding(top = 30.dp)
         )
         VideoPreviewRow(
             previewResList = listOf(

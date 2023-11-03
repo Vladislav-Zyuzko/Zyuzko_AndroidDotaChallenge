@@ -95,7 +95,7 @@ object AppTheme {
             get() =
                 TextStyle(
                     fontFamily = FontFamily,
-                    fontWeight = FontWeight.Medium,
+                    fontWeight = FontWeight.Normal,
                     fontSize = 12.sp,
                     lineHeight = 19.sp,
                     platformStyle = PlatformTextStyle(includeFontPadding = false),
@@ -109,7 +109,7 @@ object AppTheme {
             get() =
                 TextStyle(
                     fontFamily = FontFamily,
-                    fontWeight = FontWeight.Medium,
+                    fontWeight = FontWeight.Normal,
                     fontSize = 12.sp,
                     lineHeight = 20.sp,
                     letterSpacing = 0.5.sp,
@@ -124,7 +124,7 @@ object AppTheme {
             get() =
                 TextStyle(
                     fontFamily = FontFamily,
-                    fontWeight = FontWeight.Medium,
+                    fontWeight = FontWeight.Normal,
                     fontSize = 12.sp,
                     platformStyle = PlatformTextStyle(includeFontPadding = false),
                     letterSpacing = 0.5.sp,
@@ -138,10 +138,23 @@ object AppTheme {
             get() =
                 TextStyle(
                     fontFamily = FontFamily,
-                    fontWeight = FontWeight.Medium,
+                    fontWeight = FontWeight.Normal,
                     fontSize = 16.sp,
                     platformStyle = PlatformTextStyle(includeFontPadding = false),
                     letterSpacing = 0.5.sp,
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    )
+                )
+        val Medium_10
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Medium,
+                    fontSize = 10.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
                     lineHeightStyle = LineHeightStyle(
                         LineHeightStyle.Alignment.Proportional,
                         LineHeightStyle.Trim.None

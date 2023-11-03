@@ -53,7 +53,7 @@ private fun HeaderBackground(
             contentScale = ContentScale.FillWidth,
         )
         Row(
-            modifier = Modifier.offset(x=21.dp, y=265.dp)
+            modifier = Modifier.offset(x=21.dp, y=280.dp)
         ) {
             DotaLogo(shape = RoundedCornerShape(20.dp))
             Column(

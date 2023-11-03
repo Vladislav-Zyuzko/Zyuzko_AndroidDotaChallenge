@@ -13,4 +13,7 @@
     <string name="comment_date2">February 14, 2019</string>
     <string name="comment_body1">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
     <string name="comment_body2">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
+    <string name="chip_content1">MOBA</string>
+    <string name="chip_content2">MULTIPLAYER</string>
+    <string name="chip_content3">STRATEGY</string>
 </resources>
