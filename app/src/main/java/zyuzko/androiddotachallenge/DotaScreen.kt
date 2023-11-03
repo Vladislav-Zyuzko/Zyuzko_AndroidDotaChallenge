@@ -139,7 +139,7 @@ fun RatingsHeader() {
                 Text(
                     text = stringResource(id = R.string.game_reviews),
                     style = AppTheme.TextStyle.Regular_12_0_5,
-                    color = AppTheme.TextColors.darkGrey,
+                    color = AppTheme.TextColors.primaryGrey,
                     modifier = Modifier.padding(top = 8.dp)
                 )
             }
@@ -201,7 +201,7 @@ fun PrimaryButton(
         modifier = Modifier
             .background(AppTheme.BgColors.primaryBlue)
             .fillMaxWidth()
-            .padding(vertical = 47.dp, horizontal = 24.dp)
+            .padding(vertical = 40.dp, horizontal = 24.dp)
             .height(64.dp),
         shape = RoundedCornerShape(12.dp),
         colors = ButtonDefaults.buttonColors(

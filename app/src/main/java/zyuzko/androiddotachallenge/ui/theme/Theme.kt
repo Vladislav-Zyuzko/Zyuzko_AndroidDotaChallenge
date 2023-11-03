@@ -61,6 +61,21 @@ object AppTheme {
                         LineHeightStyle.Trim.None
                     )
                 )
+        val Bold_20_26
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 20.sp,
+                    lineHeight = 26.sp,
+                    letterSpacing = 0.5.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    )
+                )
         val Bold_16
             @Composable
             get() =
