@@ -5,4 +5,10 @@
     <string name="ratings_header">Review &amp; Ratings</string>
     <string name="game_rating">4.9</string>
     <string name="game_reviews">70M Reviews</string>
+    <string name="username1">Auguste Conte</string>
+    <string name="username2">Jang Marcelino</string>
+    <string name="comment_date1">February 14, 2019</string>
+    <string name="comment_date2">February 14, 2019</string>
+    <string name="comment_body1">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
+    <string name="comment_body2">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
 </resources>

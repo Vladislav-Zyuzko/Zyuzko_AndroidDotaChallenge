@@ -16,6 +16,7 @@ object AppTheme {
         val primaryBlack = Color(red=0f, green=0f, blue=0f, alpha=1f)
         val bluePrimary = Color(red=68/255f, green=169/255f, blue=244/255f, alpha=0.24f)
         val blueGrey = Color(31/255f, 36/255f, 48/255f, 1f)
+        val darkGrey = Color(26/255f, 31/255f, 41/255f, 1f)
     }
 
     object ButtonColors {
@@ -74,7 +75,7 @@ object AppTheme {
                     ),
                     letterSpacing = 0.6.sp
                 )
-        val Regular_12_20
+        val Regular_12_19
             @Composable
             get() =
                 TextStyle(
@@ -88,6 +89,21 @@ object AppTheme {
                         LineHeightStyle.Trim.None
                     )
                 )
+        val Regular_12_20
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Medium,
+                    fontSize = 12.sp,
+                    lineHeight = 20.sp,
+                    letterSpacing = 0.5.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    )
+                )
         val Regular_12_0_5
             @Composable
             get() =
@@ -95,6 +111,20 @@ object AppTheme {
                     fontFamily = FontFamily,
                     fontWeight = FontWeight.Medium,
                     fontSize = 12.sp,
+                    platformStyle = PlatformTextStyle(includeFontPadding = false),
+                    letterSpacing = 0.5.sp,
+                    lineHeightStyle = LineHeightStyle(
+                        LineHeightStyle.Alignment.Proportional,
+                        LineHeightStyle.Trim.None
+                    )
+                )
+        val Regular_16_0_5
+            @Composable
+            get() =
+                TextStyle(
+                    fontFamily = FontFamily,
+                    fontWeight = FontWeight.Medium,
+                    fontSize = 16.sp,
                     platformStyle = PlatformTextStyle(includeFontPadding = false),
                     letterSpacing = 0.5.sp,
                     lineHeightStyle = LineHeightStyle(

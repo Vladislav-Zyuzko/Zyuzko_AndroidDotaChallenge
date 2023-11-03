@@ -36,7 +36,7 @@ fun MainContent() {
     ) {
         Text(
             text = stringResource(id = R.string.game_description),
-            style = AppTheme.TextStyle.Regular_12_20,
+            style = AppTheme.TextStyle.Regular_12_19,
             color = AppTheme.TextColors.dimLightGrey,
             modifier = Modifier.padding(top = 135.dp)
         )
