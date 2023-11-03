@@ -17,6 +17,8 @@ object AppTheme {
         val bluePrimary = Color(red=68/255f, green=169/255f, blue=244/255f, alpha=0.24f)
         val blueGrey = Color(31/255f, 36/255f, 48/255f, 1f)
         val darkGrey = Color(26/255f, 31/255f, 41/255f, 1f)
+        val dimWhite = Color(red=1f, green=1f, blue=1f, alpha=0.30f)
+        val primaryWhite = Color(red=1f, green=1f, blue=1f, alpha=1f)
     }
 
     object ButtonColors {
