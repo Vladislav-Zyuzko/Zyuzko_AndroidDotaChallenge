@@ -16,4 +16,11 @@
     <string name="chip_content1">MOBA</string>
     <string name="chip_content2">MULTIPLAYER</string>
     <string name="chip_content3">STRATEGY</string>
+    <string name="play_icon_description">play_icon</string>
+    <string name="header_image_description">header_image</string>
+    <string name="video_image_description">video_preview</string>
+    <string name="game_stars_image_description">game_stars</string>
+    <string name="rating_stars_image_description">rating_stars</string>
+    <string name="avatar_description">_avatar</string>
+    <string name="logo_description">logo</string>
 </resources>

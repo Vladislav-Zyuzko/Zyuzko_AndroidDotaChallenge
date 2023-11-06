@@ -41,6 +41,7 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.zIndex
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
@@ -54,7 +55,7 @@ fun MainContent() {
             .zIndex(0.5f)
             .padding(start = 24.dp, end = 24.dp),
 
-    ) {
+        ) {
         ScrollableChipsRow()
         Text(
             text = stringResource(id = R.string.game_description),
@@ -84,26 +85,28 @@ fun VideoPreviewRow(
                 0 -> PaddingValues()
                 else -> PaddingValues(start = 12.dp)
             }
-            Box (
+            Box(
                 contentAlignment = Alignment.Center
             ) {
                 Image(
                     painter = painterResource(id = item),
-                    contentDescription = "video_preview$index",
+                    contentDescription = "${R.string.video_image_description}$index",
                     modifier = Modifier
                         .padding(contentPadding)
                         .height(130.dp)
                         .clip(RoundedCornerShape(20.dp))
 
                 )
-                Box (
+                Box(
                     contentAlignment = Alignment.Center
                 ) {
                     TransparentCircularBox(size = 48.dp)
                     Image(
                         painter = painterResource(id = R.drawable.arrow),
-                        modifier = Modifier.height(12.dp).width(10.dp),
-                        contentDescription = null,
+                        modifier = Modifier
+                            .height(12.dp)
+                            .width(10.dp),
+                        contentDescription = stringResource(id = R.string.play_icon_description),
                     )
                 }
             }
@@ -121,4 +124,10 @@ fun TransparentCircularBox(
             .clip(CircleShape)
             .background(AppTheme.BgColors.dimWhite)
     )
+}
+
+@Composable
+@Preview(showBackground = true)
+fun MainContentPreview() {
+    MainContent()
 }

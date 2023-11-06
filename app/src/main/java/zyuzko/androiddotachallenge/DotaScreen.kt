@@ -131,7 +131,7 @@ fun RatingsHeader() {
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.rating_stars),
-                    contentDescription = "ratings_stars",
+                    contentDescription = stringResource(id = R.string.rating_stars_image_description),
                     modifier = Modifier
                         .padding(top = 8.dp)
                         .height(12.dp)
@@ -163,7 +163,7 @@ fun CommentBlock(
             ) {
                 Image (
                     painter = painterResource(commentUi.user.avatar),
-                    contentDescription = null,
+                    contentDescription =  commentUi.user.name + stringResource(id = R.string.avatar_description),
                     contentScale = ContentScale.Crop,
                 )
             }

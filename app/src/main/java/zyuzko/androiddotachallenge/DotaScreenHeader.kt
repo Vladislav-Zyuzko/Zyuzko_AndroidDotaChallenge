@@ -49,7 +49,7 @@ private fun HeaderBackground(
     Box(modifier = modifier) {
         Image(
             painter = painter,
-            contentDescription = "Header",
+            contentDescription = stringResource(id = R.string.header_image_description),
             contentScale = ContentScale.FillWidth,
         )
         Row(
@@ -70,7 +70,7 @@ private fun HeaderBackground(
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.game_stars),
-                        contentDescription = "game_stars",
+                        contentDescription = stringResource(id = R.string.game_stars_image_description),
                         modifier = Modifier.height(12.dp)
                     )
                     Text(
@@ -101,7 +101,7 @@ private fun DotaLogo(shape: RoundedCornerShape) {
                 .height(55.dp)
                 .width(55.dp),
             painter = painterResource(id = R.drawable.dota_logo),
-            contentDescription = "logo"
+            contentDescription = stringResource(id = R.string.logo_description)
         )
     }
 }
