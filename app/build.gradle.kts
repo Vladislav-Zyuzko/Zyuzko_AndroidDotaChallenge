@@ -55,5 +55,4 @@ dependencies {
 
     implementation(libs.accompanistSystemUiController)
 
-
 }

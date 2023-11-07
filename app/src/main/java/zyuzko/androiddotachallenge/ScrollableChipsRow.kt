@@ -14,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.android.material.chip.Chip
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
@@ -29,7 +30,7 @@ fun ScrollableChipsRow() {
         horizontalArrangement = Arrangement.spacedBy(10.dp),
         modifier = Modifier.padding(top = 91.dp)
     ) {
-        itemsIndexed(items) {index, item ->
+        itemsIndexed(items) { index, item ->
             Surface(
                 shape = CircleShape,
                 color = AppTheme.BgColors.bluePrimary,
@@ -49,4 +50,10 @@ fun SurfaceContent(chipName: String) {
         color = AppTheme.TextColors.primaryBlue,
         modifier = Modifier.padding(vertical = 5.dp, horizontal = 10.dp)
     )
+}
+
+@Preview
+@Composable
+fun ScrollableChipsRowPreview() {
+    ScrollableChipsRow()
 }
