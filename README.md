@@ -14,7 +14,8 @@
 
 <img src="images/screen1.jpg" width="250px"> <img src="images/screen2.jpg" width="250px">
 
-Также был сгенерирован APK файл: [<img src="images/download.jpg" height="35px" style="padding-left: 20px; padding-top:"> ](AndroidDotaChallenge.apk)
+Также был сгенерирован APK файл: [<img src="images/download.png" height="35px" style="padding-left: 20px; padding-top:"> ](AndroidDotaChallenge.apk)
 
 ```Минимальная версия Android для установки: 7.0 (24 API Level)```
+
 ```Приложение поддерживается версией Android 14.0 (34 API Level)```
