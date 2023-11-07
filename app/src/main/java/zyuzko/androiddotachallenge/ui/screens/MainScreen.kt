@@ -1,4 +1,4 @@
-package zyuzko.androiddotachallenge
+package zyuzko.androiddotachallenge.ui.screens
 
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable

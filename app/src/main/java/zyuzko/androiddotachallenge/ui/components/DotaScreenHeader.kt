@@ -1,4 +1,4 @@
-package zyuzko.androiddotachallenge
+package zyuzko.androiddotachallenge.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -24,6 +24,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
+import zyuzko.androiddotachallenge.R
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
 
 @Composable

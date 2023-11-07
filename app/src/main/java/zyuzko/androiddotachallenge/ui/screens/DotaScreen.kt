@@ -1,4 +1,4 @@
-package zyuzko.androiddotachallenge
+package zyuzko.androiddotachallenge.ui.screens
 
 import android.content.Context
 import android.widget.Toast
@@ -32,8 +32,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import zyuzko.androiddotachallenge.R
 import zyuzko.androiddotachallenge.data.CommentUi
 import zyuzko.androiddotachallenge.data.UserUi
+import zyuzko.androiddotachallenge.ui.components.DotaScreenHeader
+import zyuzko.androiddotachallenge.ui.components.MainContent
 import zyuzko.androiddotachallenge.ui.theme.AppTheme
 
 @Composable
