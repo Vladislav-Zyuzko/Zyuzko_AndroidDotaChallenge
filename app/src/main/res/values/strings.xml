@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">AndroidDotaChallenge</string>
+    <string name="game_description">Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the "Ancient", whilst defending their own.</string>
+    <string name="install">Install</string>
+    <string name="ratings_header">Review &amp; Ratings</string>
+    <string name="game_rating">4.9</string>
+    <string name="game_reviews">70M Reviews</string>
+    <string name="game_downloads">70M</string>
+    <string name="game_name">DoTA 2</string>
+    <string name="username1">Auguste Conte</string>
+    <string name="username2">Jang Marcelino</string>
+    <string name="comment_date1">February 14, 2019</string>
+    <string name="comment_date2">February 14, 2019</string>
+    <string name="comment_body1">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
+    <string name="comment_body2">“Once you start to learn its secrets, there’s a wild and exciting variety of play here that’s unmatched, even by its peers.”</string>
+    <string name="chip_content1">MOBA</string>
+    <string name="chip_content2">MULTIPLAYER</string>
+    <string name="chip_content3">STRATEGY</string>
+    <string name="play_icon_description">play_icon</string>
+    <string name="header_image_description">header_image</string>
+    <string name="video_image_description">video_preview</string>
+    <string name="game_stars_image_description">game_stars</string>
+    <string name="rating_stars_image_description">rating_stars</string>
+    <string name="avatar_description">_avatar</string>
+    <string name="logo_description">logo</string>
 </resources>
